@@ -5,9 +5,9 @@
     <ImageView
         android:layout_marginTop="4dp"
         android:layout_marginBottom="4dp"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:scaleType="fitXY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
         android:id="@+id/bookPic"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
@@ -24,7 +24,7 @@
         android:layout_toRightOf="@+id/bookPic"
         android:textColor="@color/background_floating_material_dark"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="2dp"
+        android:layout_marginLeft="6dp"
         android:layout_centerHorizontal="true" />
 
     <TextView
@@ -33,7 +33,7 @@
         android:textSize="12sp"
         android:id="@+id/bookAuthor"
         android:singleLine="true"
-        android:layout_marginLeft="2dp"
+        android:layout_marginLeft="6dp"
         android:layout_toRightOf="@+id/bookPic"
         android:layout_below="@+id/bookTitle"
         android:layout_centerHorizontal="true" />
@@ -42,11 +42,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/bookRatingBar"
-        android:layout_marginLeft="2dp"
+        android:layout_marginLeft="6dp"
         android:layout_toRightOf="@+id/bookPic"
+        android:layout_alignParentBottom="true"
         android:layout_below="@+id/bookAuthor"
         android:isIndicator="true"
-        android:layout_marginBottom="4dp"
+        android:paddingBottom="4dp"
         style = "@android:style/Widget.DeviceDefault.RatingBar.Small"
 
       />
