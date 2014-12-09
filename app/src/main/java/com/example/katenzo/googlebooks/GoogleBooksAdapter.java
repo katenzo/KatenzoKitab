@@ -69,9 +69,6 @@ public class GoogleBooksAdapter extends ArrayAdapter {
     }
 
     private float getRating(VolumeInfo getVolumeInfo) {
-       // if (null == getVolumeInfo.getAverageRating()) {
-            //return 0;
-      //  }
         return getVolumeInfo.getAverageRating();
 
     }
